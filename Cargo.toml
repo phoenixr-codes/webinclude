@@ -1,0 +1,11 @@
+[package]
+name = "webinclude"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+proc-macro = true
+
+[dependencies]
+minreq = { version = "2.11.0", features = ["https-native"] }
